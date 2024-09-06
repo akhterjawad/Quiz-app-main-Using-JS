@@ -1,0 +1,47 @@
+body,
+html {
+    background: linear-gradient(135deg, #0989f3 0%, #ff6e7f 100%);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 60px !important;
+    /* Prevent scrollbars */
+}
+.mt-55{
+    margin-top: 20px !important;
+}
+
+/* .background {
+    height: 130px;
+    /* Adjust height as needed */
+    /* width: 100%; */
+/* } */ 
+
+.card-container {
+    margin-top: -100px;
+    /* Adjust margin if needed */
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    /* Ensure no overflow from the card */
+}
+
+.form-outline {
+    position: relative;
+}
+
+.form-outline .form-control {
+    box-shadow: none;
+    border-color: #0062E6;
+}
+
+.btn-primary {
+    background-color: #0062E6;
+    border-color: #0062E6;
+}
+
+.btn-primary:hover {
+    background-color: #004BB5;
+    border-color: #004BB5;
+}
